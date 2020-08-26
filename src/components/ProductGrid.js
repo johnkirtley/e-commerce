@@ -9,18 +9,13 @@ const ProductGrid = (props) => {
 
 	return (
 		<div className='product-grid'>
-			{items.shirts.map((shirt) => (
-				<div>
-					<p>{shirt.name}</p>
-					<button onClick={() => props.addToCart(shirt.name)}>
+			{items.data.map((item) => (
+				<div className='item'>
+					<p>{item.name}</p>
+					<img src={item.image} alt={item.name} />
+					<button onClick={() => props.addToCart(item.name)}>
 						Add To Cart
 					</button>
-				</div>
-			))}
-			{items.pants.map((pant) => (
-				<div>
-					<p>{pant.name}</p>
-					<button>Add To Cart</button>
 				</div>
 			))}
 		</div>
