@@ -1,0 +1,14 @@
+.product-grid {
+	@include display-grid(grid, repeat(4, 1fr), 2rem);
+}
+
+.item {
+	@include display-flex(flex, center, center);
+	flex-flow: column;
+	text-align: center;
+
+	button {
+		width: 25%;
+		margin: 1rem auto;
+	}
+}

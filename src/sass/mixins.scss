@@ -1,0 +1,11 @@
+@mixin display-flex($type, $justify, $align) {
+	display: $type;
+	justify-content: $justify;
+	align-content: $align;
+}
+
+@mixin display-grid($type, $gtc, $grid-gap) {
+	display: $type;
+	grid-template-columns: $gtc;
+	grid-gap: $grid-gap;
+}
