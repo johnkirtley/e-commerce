@@ -1,4 +1,4 @@
-import { ADD_TO_CART, REMOVE_FROM_CART } from '../actions';
+import { ADD_TO_CART, UPDATE_TOTAL, REMOVE_FROM_CART } from '../actions';
 
 export const initialState = {
 	cart: [],
@@ -20,13 +20,20 @@ export const cartReducer = (state = initialState, action) => {
 				cartCount: state.cartCount + 1,
 			};
 
+		case UPDATE_TOTAL:
+			return {
+				...state,
+				cartTotal: state.cartTotal + action.payload,
+			};
+
 		case REMOVE_FROM_CART:
 			const item = state.cart.splice(action.payload, 1);
-
+			console.log('item', item);
 			return {
 				...state,
 				cart: [...state.cart],
 				cartCount: state.cartCount - 1,
+				cartTotal: state.cartTotal - item[0].price,
 			};
 
 		default:

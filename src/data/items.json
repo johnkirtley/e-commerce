@@ -3,43 +3,51 @@
 		{
 			"name": "Sweater",
 			"sizes": ["S", "M", "L"],
-			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/41385576_023_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/41385576_023_b?$xlarge$&fit=constrain&qlt=80&wid=683",
+			"price": 19.99
 		},
 		{
 			"name": "Backpack",
 			"sizes": ["One Size"],
-			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/51288231_006_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/51288231_006_b?$xlarge$&fit=constrain&qlt=80&wid=683",
+			"price": 19.99
 		},
 		{
 			"name": "Nike Air Tailwind",
 			"sizes": ["S", "M", "L"],
-			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/55056121_072_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/55056121_072_b?$xlarge$&fit=constrain&qlt=80&wid=683",
+			"price": 19.99
 		},
 		{
 			"name": "Blue Mask",
 			"sizes": ["One Size"],
-			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/57879959_040_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/57879959_040_b?$xlarge$&fit=constrain&qlt=80&wid=683",
+			"price": 19.99
 		},
 
 		{
 			"name": "Patagonia Jacket",
 			"sizes": ["S", "M", "L"],
-			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/56909559_105_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/56909559_105_b?$xlarge$&fit=constrain&qlt=80&wid=683",
+			"price": 19.99
 		},
 		{
 			"name": "Fireball Sweater",
 			"sizes": ["S", "M", "L"],
-			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/58544701_002_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/58544701_002_b?$xlarge$&fit=constrain&qlt=80&wid=683",
+			"price": 19.99
 		},
 		{
 			"name": "Chicago Bulls Jacket",
 			"sizes": ["S", "M", "L"],
-			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/59099044_060_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/59099044_060_b?$xlarge$&fit=constrain&qlt=80&wid=683",
+			"price": 19.99
 		},
 		{
 			"name": "Mickey Shirt",
 			"sizes": ["S", "M", "L"],
-			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/58547621_072_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/58547621_072_b?$xlarge$&fit=constrain&qlt=80&wid=683",
+			"price": 19.99
 		}
 	]
 }

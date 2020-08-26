@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import { Link } from 'react-router-dom';
+
 const Home = (props) => {
 	return (
 		<div className='header-container'>
@@ -8,10 +10,12 @@ const Home = (props) => {
 				<h1>E-Commerce Store</h1>
 			</div>
 			<div className='checkout-logo'>
-				<img
-					src='https://cdn1.iconfinder.com/data/icons/interface-elements-iii-1/512/Basket-512.png'
-					alt='checkout cart'
-				/>
+				<Link to='/checkout'>
+					<img
+						src='https://cdn1.iconfinder.com/data/icons/interface-elements-iii-1/512/Basket-512.png'
+						alt='checkout cart'
+					/>
+				</Link>
 				<span className={props.cartCount > 0 ? 'cart-count' : ''}>
 					{props.cartCount > 0 ? props.cartCount : ''}
 				</span>
