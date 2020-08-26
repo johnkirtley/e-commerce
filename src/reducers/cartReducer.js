@@ -21,11 +21,13 @@ export const cartReducer = (state = initialState, action) => {
 			};
 
 		case REMOVE_FROM_CART:
-			const updatedCart = state.cart.filter((item) => {
-				return item.id != action.payload;
-			});
+			const item = state.cart.splice(action.payload, 1);
 
-			return updatedCart;
+			return {
+				...state,
+				cart: [...state.cart],
+				cartCount: state.cartCount - 1,
+			};
 
 		default:
 			return {
