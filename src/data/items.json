@@ -1,38 +1,45 @@
 {
-	"shirts": [
+	"data": [
 		{
-			"name": "Shirt 1",
-			"sizes": ["S", "M", "L"]
+			"name": "Sweater",
+			"sizes": ["S", "M", "L"],
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/41385576_023_b?$xlarge$&fit=constrain&qlt=80&wid=683"
 		},
 		{
-			"name": "Shirt 2",
-			"sizes": ["S", "M", "L"]
+			"name": "Backpack",
+			"sizes": ["One Size"],
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/51288231_006_b?$xlarge$&fit=constrain&qlt=80&wid=683"
 		},
 		{
-			"name": "Shirt 3",
-			"sizes": ["S", "M", "L"]
+			"name": "Nike Air Tailwind",
+			"sizes": ["S", "M", "L"],
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/55056121_072_b?$xlarge$&fit=constrain&qlt=80&wid=683"
 		},
 		{
-			"name": "Shirt 4",
-			"sizes": ["S", "M", "L"]
-		}
-	],
-	"pants": [
+			"name": "Blue Mask",
+			"sizes": ["One Size"],
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/57879959_040_b?$xlarge$&fit=constrain&qlt=80&wid=683"
+		},
+
 		{
-			"name": "Pants 1",
-			"sizes": ["30", "31", "32"]
+			"name": "Patagonia Jacket",
+			"sizes": ["S", "M", "L"],
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/56909559_105_b?$xlarge$&fit=constrain&qlt=80&wid=683"
 		},
 		{
-			"name": "Pants 2",
-			"sizes": ["30", "31", "32"]
+			"name": "Fireball Sweater",
+			"sizes": ["S", "M", "L"],
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/58544701_002_b?$xlarge$&fit=constrain&qlt=80&wid=683"
 		},
 		{
-			"name": "Pants 3",
-			"sizes": ["30", "31", "32"]
+			"name": "Chicago Bulls Jacket",
+			"sizes": ["S", "M", "L"],
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/59099044_060_b?$xlarge$&fit=constrain&qlt=80&wid=683"
 		},
 		{
-			"name": "Pants 4",
-			"sizes": ["30", "31", "32"]
+			"name": "Mickey Shirt",
+			"sizes": ["S", "M", "L"],
+			"image": "https://s7d5.scene7.com/is/image/UrbanOutfitters/58547621_072_b?$xlarge$&fit=constrain&qlt=80&wid=683"
 		}
 	]
 }
