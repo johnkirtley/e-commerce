@@ -1,0 +1,38 @@
+{
+	"shirts": [
+		{
+			"name": "Shirt 1",
+			"sizes": ["S", "M", "L"]
+		},
+		{
+			"name": "Shirt 2",
+			"sizes": ["S", "M", "L"]
+		},
+		{
+			"name": "Shirt 3",
+			"sizes": ["S", "M", "L"]
+		},
+		{
+			"name": "Shirt 4",
+			"sizes": ["S", "M", "L"]
+		}
+	],
+	"pants": [
+		{
+			"name": "Pants 1",
+			"sizes": ["30", "31", "32"]
+		},
+		{
+			"name": "Pants 2",
+			"sizes": ["30", "31", "32"]
+		},
+		{
+			"name": "Pants 3",
+			"sizes": ["30", "31", "32"]
+		},
+		{
+			"name": "Pants 4",
+			"sizes": ["30", "31", "32"]
+		}
+	]
+}

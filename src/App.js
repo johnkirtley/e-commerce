@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
 
+import { Home } from './components/Home';
+import ProductGrid from './components/ProductGrid';
+import Checkout from './components/Checkout';
+
 const App = () => {
 	return (
-		<div className='App'>
-			<h1>Let's Get It 🤟</h1>
-		</div>
+		<>
+			<Home />
+			<ProductGrid />
+			<Checkout />
+		</>
 	);
 };
 
