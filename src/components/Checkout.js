@@ -1,12 +1,16 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { removeFromCart } from '../actions';
 
 const Checkout = (props) => {
 	return (
 		<>
 			<h3>Checkout</h3>
-			{props.cart.map((item) => (
-				<p>{item}</p>
+			{props.cart.map((item, index) => (
+				<div>
+					<p>{item}</p>
+					<button onClick={() => props.removeFromCart(index)}>X</button>
+				</div>
 			))}
 		</>
 	);
@@ -20,4 +24,4 @@ const mapStateToProps = (state) => {
 	};
 };
 
-export default connect(mapStateToProps)(Checkout);
+export default connect(mapStateToProps, { removeFromCart })(Checkout);
