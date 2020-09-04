@@ -5,7 +5,7 @@ import { addToCart, updateTotal } from '../actions';
 import { connect } from 'react-redux';
 
 const ProductGrid = (props) => {
-	const [items, setItems] = useState(ItemData);
+	const [items] = useState(ItemData);
 
 	const updateCart = (item, price) => {
 		props.addToCart(item);
@@ -18,6 +18,7 @@ const ProductGrid = (props) => {
 				<div className='item'>
 					<p>{item.name}</p>
 					<img src={item.image} alt={item.name} />
+					<p>${item.price}</p>
 					<button onClick={() => updateCart(item, item.price)}>
 						Add To Cart
 					</button>

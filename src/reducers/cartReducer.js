@@ -9,11 +9,8 @@ export const initialState = {
 };
 
 export const cartReducer = (state = initialState, action) => {
-	console.log(action);
 	switch (action.type) {
 		case ADD_TO_CART:
-			console.log(state.cart);
-
 			return {
 				...state,
 				cart: [...state.cart, action.payload],
@@ -28,7 +25,6 @@ export const cartReducer = (state = initialState, action) => {
 
 		case REMOVE_FROM_CART:
 			const item = state.cart.splice(action.payload, 1);
-			console.log('item', item);
 			return {
 				...state,
 				cart: [...state.cart],

@@ -1,0 +1,12 @@
+.checkout-container {
+	@include display-flex(flex, center, center);
+	flex-flow: column;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+
+	.checkout-grid {
+		display: block;
+		width: 45%;
+	}
+}
